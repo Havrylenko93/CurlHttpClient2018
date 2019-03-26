@@ -1,0 +1,26 @@
+{
+    "name": "curl-http-client",
+    "description": "Simple curl http client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Havrylenko",
+            "email": "gavrilenko.php@gmail.com",
+            "homepage": "https://github.com/Havrylenko93",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php", "curl", "api-client", "client", "http", "http-client", "php-curl", "php-curl-library", "retry"
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CurlHttpClient\\": "src/"
+        }
+    }
+}
