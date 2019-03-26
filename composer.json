@@ -1,5 +1,5 @@
 {
-    "name": "havrylenko93-curl-http-client",
+    "name": "havrylenko93/curl-http-client",
     "description": "Simple curl http client",
     "type": "library",
     "license": "MIT",
